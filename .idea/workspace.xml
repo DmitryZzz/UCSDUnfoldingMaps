@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24e87e41-a9cd-4b96-ad29-aeb10c789b42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UCSDUnfoldingMaps.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2.5_week.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/LifeExpectancyWorldBank.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/LifeExpectancyWorldBankModule3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/airports.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/blankDark-1-3.mbtiles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/blankLight-1-3.mbtiles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/city-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/countries.geo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/palmTrees.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/quiz1.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/quiz2.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/routes.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sortAndPrint.test2.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test1.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test1.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test2.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test2.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-linux-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-linux-armv6hf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-linux-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-macosx-universal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-windows-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-windows-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all-natives-linux-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all-natives-linux-armv6hf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all-natives-linux-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all-natives-macosx-universal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all-natives-windows-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all-natives-windows-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/json4processing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libTUIO.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/unfolding.0.9.7-uscd.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloUCSDWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfflineMapApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/Airport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/EarthquakeCityMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/LifeExpectancy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/LocationTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/MyDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/MyPApplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/SearchAndSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/SimpleLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module1/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module3/EarthquakeCityMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/CityMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/EarthquakeCityMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/EarthquakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/LandQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/OceanQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/CityMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/CommonMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/EarthquakeCityMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/EarthquakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/LandQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/OceanQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/AirportMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/AirportMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/CityMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/CommonMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/EarthquakeCityMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/EarthquakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/LandQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/LifeExpectancy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/OceanQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parsing/ParseFeed.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="185" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VXK1MrKVwNmgdZnC4jQn9wqgs2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloUCSDWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloUCSDWorld" />
+      <module name="UCSDUnfoldingMaps" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloUCSDWorld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24e87e41-a9cd-4b96-ad29-aeb10c789b42" name="Default Changelist" comment="" />
+      <created>1577393783387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577393783387</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UCSDUnfoldingMaps$HelloUCSDWorld.ic" NAME="HelloUCSDWorld Coverage Results" MODIFIED="1577394182157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
