@@ -99,6 +99,9 @@
   </component>
   <component name="ProjectId" id="1VXK1MrKVwNmgdZnC4jQn9wqgs2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
