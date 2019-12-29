@@ -1,5 +1,6 @@
 package module1;
 
+import de.fhpotsdam.unfolding.providers.Microsoft;
 import processing.core.PApplet;
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.fhpotsdam.unfolding.geo.Location;
@@ -32,7 +33,7 @@ public class HelloWorld extends PApplet
 	/** The map we use to display our home town: La Jolla, CA */
 	UnfoldingMap map1;
 	
-	/** The map you will use to display your home town */ 
+	/** The map you will use to display your home town: Moscow 55.822412, 37.432043 */
 	UnfoldingMap map2;
 
 	public void setup() {
@@ -46,7 +47,7 @@ public class HelloWorld extends PApplet
 		this.background(200, 200, 200);
 		
 		// Select a map provider
-		AbstractMapProvider provider = new Google.GoogleTerrainProvider();
+		AbstractMapProvider provider = new Microsoft.RoadProvider();
 		// Set a zoom level
 		int zoomLevel = 10;
 		
@@ -70,13 +71,14 @@ public class HelloWorld extends PApplet
 		// The next line zooms in and centers the map at 
 	    // 32.9 (latitude) and -117.2 (longitude)
 	    map1.zoomAndPanTo(zoomLevel, new Location(32.9f, -117.2f));
-		
+
 		// This line makes the map interactive
 		MapUtils.createDefaultEventDispatcher(this, map1);
 		
 		// TODO: Add code here that creates map2 
-		// Then you'll modify draw() below
-
+		map2 = new UnfoldingMap(this, 450, 50, 350, 500, provider);
+		map2.zoomAndPanTo(zoomLevel, new Location(55.822412, 37.432043));
+		MapUtils.createDefaultEventDispatcher(this, map2);
 	}
 
 	/** Draw the Applet window.  */
@@ -84,6 +86,7 @@ public class HelloWorld extends PApplet
 		// So far we only draw map1...
 		// TODO: Add code so that both maps are displayed
 		map1.draw();
+		map2.draw();
 	}
 
 	
