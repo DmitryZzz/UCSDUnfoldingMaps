@@ -51,6 +51,10 @@ public class EarthquakeCityMap extends PApplet {
 	//feed with magnitude 2.5+ Earthquakes
 	private String earthquakesURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.atom";
 
+	//Add colors
+	private final int YELLOW = color(255, 255, 0);
+	private final int RED = color(255, 0, 0);
+	private final int BLUE = color(0, 0, 255);
 	
 	public void setup() {
 		size(950, 600, OPENGL);
@@ -81,7 +85,6 @@ public class EarthquakeCityMap extends PApplet {
 	    // List markers (so that it will be added to the map in the line below)
 		for (PointFeature eq: earthquakes) {
 			markers.add(createMarker(eq));
-			//markers.add(new SimplePointMarker(eq.getLocation(), eq.getProperties()));
 		}
 	    
 	    // Add the markers to the map so that they are displayed
@@ -113,9 +116,6 @@ public class EarthquakeCityMap extends PApplet {
 		// Here is an example of how to use Processing's color method to generate 
 	    // an int that represents the color yellow.  
 	    int yellow = color(255, 255, 0);
-		int gray = color(150,150,150);
-		int red = color(255, 0, 0);
-		int blue = color(0, 0, 255);
 
 		// TODO (Step 4): Add code below to style the marker's size and color 
 	    // according to the magnitude of the earthquake.  
@@ -125,11 +125,14 @@ public class EarthquakeCityMap extends PApplet {
 	    // the magnitude to these variables (and change their value in the code 
 	    // above if you want to change what you mean by "moderate" and "light")
 		if (mag >= THRESHOLD_MODERATE) {
-			marker.setColor(red);
+			marker.setColor(255);
+			marker.setRadius(15);
 		} else if (mag >= THRESHOLD_LIGHT) {
-			marker.setColor(yellow);
+			marker.setColor(YELLOW);
+			marker.setRadius(10);
 		} else {
-			marker.setColor(blue);
+			marker.setColor(BLUE);
+			marker.setRadius(5);
 		}
 
 	    // Finally return the marker
@@ -164,9 +167,9 @@ public class EarthquakeCityMap extends PApplet {
 		ellipse(50, 225, 5, 5);
 
 		fill(0, 0, 0);
-		text("5.0+ Magnitude", 75, 125);
-		text("4.0+ Magnitude", 75, 175);
-		text("Below 4.0", 75, 225);
+		text("5.0+ Magnitude", 65, 125);
+		text("4.0+ Magnitude", 65, 175);
+		text("Below 4.0", 65, 225);
 	}
 
 	public static void main(String[] args) {
