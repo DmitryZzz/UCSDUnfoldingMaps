@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24e87e41-a9cd-4b96-ad29-aeb10c789b42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guimodule/MyDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guimodule/MyDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module1/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module1/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demos/EarthquakeCityMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demos/EarthquakeCityMapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module3/EarthquakeCityMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module3/EarthquakeCityMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +47,13 @@
     </configuration>
     <configuration name="EarthquakeCityMap" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="module3.EarthquakeCityMap" />
+      <module name="UCSDUnfoldingMaps" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EarthquakeCityMapDemo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="demos.EarthquakeCityMapDemo" />
       <module name="UCSDUnfoldingMaps" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +106,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EarthquakeCityMapDemo" />
       <item itemvalue="Application.EarthquakeCityMap" />
       <item itemvalue="Application.HelloUCSDWorld" />
       <item itemvalue="Application.HelloWorld" />
-      <item itemvalue="Application.MyPApplet" />
       <item itemvalue="Application.MyDisplay" />
+      <item itemvalue="Application.MyPApplet" />
     </list>
     <recent_temporary>
       <list>
@@ -166,33 +173,60 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="243" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577787836738">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state x="414" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577803034035">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="414" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577803034035" />
     <state x="414" y="243" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1577787836738" />
-    <state x="689" y="375" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577787779298">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state x="689" y="337" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577803031886">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="689" y="337" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577803031885" />
     <state x="689" y="375" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1577787779298" />
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom" timestamp="1577790329007">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state width="437" height="466" key="DebuggerActiveHint" timestamp="1577804274173">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="437" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1577804274173" />
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1577806608835">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577806608835" />
     <state width="1877" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1577790329007" />
-    <state width="1877" height="325" key="GridCell.Tab.0.center" timestamp="1577790329007">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1577806608835">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577806608835" />
     <state width="1877" height="325" key="GridCell.Tab.0.center/0.0.1920.1170@0.0.1920.1170" timestamp="1577790329007" />
-    <state width="1877" height="325" key="GridCell.Tab.0.left" timestamp="1577790329007">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1577806608835">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577806608835" />
     <state width="1877" height="325" key="GridCell.Tab.0.left/0.0.1920.1170@0.0.1920.1170" timestamp="1577790329007" />
-    <state width="1877" height="325" key="GridCell.Tab.0.right" timestamp="1577790329007">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1577806608835">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577806608835" />
     <state width="1877" height="325" key="GridCell.Tab.0.right/0.0.1920.1170@0.0.1920.1170" timestamp="1577790329007" />
-    <state x="771" y="504" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577780038631">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1577806608836">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577806608836" />
+    <state width="1877" height="351" key="GridCell.Tab.1.center" timestamp="1577806608835">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="351" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577806608835" />
+    <state width="1877" height="351" key="GridCell.Tab.1.left" timestamp="1577806608835">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="351" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577806608835" />
+    <state width="1877" height="351" key="GridCell.Tab.1.right" timestamp="1577806608835">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="351" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577806608835" />
+    <state x="771" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577802962449">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="771" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1577802962449" />
     <state x="771" y="504" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1170@0.0.1920.1170" timestamp="1577780038631" />
   </component>
   <component name="XDebuggerManager">

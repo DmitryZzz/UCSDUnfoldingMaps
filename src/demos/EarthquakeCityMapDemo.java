@@ -22,6 +22,7 @@ import de.fhpotsdam.unfolding.utils.MapUtils;
 
 //Parsing library
 import parsing.ParseFeed;
+import study.MyPApplet;
 
 /** EarthquakeCityMapDemo
  * An application with an interactive map displaying earthquake data.
@@ -61,7 +62,7 @@ public class EarthquakeCityMapDemo extends PApplet {
 //	    map = new UnfoldingMap(this, 200, 50, 650, 600, new MBTilesMapProvider(mbTilesString));
 
 	    map.zoomToLevel(1);
-	    MapUtils.createDefaultEventDispatcher(this, map);	
+	    MapUtils.createDefaultEventDispatcher(this, map);
 			
 	    
 	    /* For demo purposes */
@@ -199,5 +200,11 @@ public class EarthquakeCityMapDemo extends PApplet {
 	{	
 		// Remember you can use Processing's graphics methods here
 	
+	}
+
+	public static void main(String[] args) {
+		EarthquakeCityMapDemo my = new EarthquakeCityMapDemo();
+		PApplet.runSketch(new String[]{"EarthquakeCityMapDemo"}, my);
+
 	}
 }
