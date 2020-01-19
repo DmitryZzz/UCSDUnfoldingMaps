@@ -141,18 +141,25 @@ public class EarthquakeCityMap extends PApplet {
 		textAlign(LEFT, CENTER);
 		textSize(12);
 		text("Earthquake Key", 50, 75);
-		
-		fill(color(255, 0, 0));
-		ellipse(50, 125, 15, 15);
-		fill(color(255, 255, 0));
-		ellipse(50, 175, 10, 10);
-		fill(color(0, 0, 255));
-		ellipse(50, 225, 5, 5);
-		
+
+		fill(color(200, 100, 100));
+		triangle(40, 135, 50, 120, 60, 135);
+
 		fill(0, 0, 0);
-		text("5.0+ Magnitude", 75, 125);
-		text("4.0+ Magnitude", 75, 175);
-		text("Below 4.0", 75, 225);
+		text("City marker", 75, 125);
+
+
+//		fill(color(255, 0, 0));
+//		ellipse(50, 125, 15, 15);
+//		fill(color(255, 255, 0));
+//		ellipse(50, 175, 10, 10);
+//		fill(color(0, 0, 255));
+//		ellipse(50, 225, 5, 5);
+//
+//		fill(0, 0, 0);
+//		text("5.0+ Magnitude", 75, 125);
+//		text("4.0+ Magnitude", 75, 175);
+//		text("Below 4.0", 75, 225);
 	}
 
 	
@@ -171,8 +178,10 @@ public class EarthquakeCityMap extends PApplet {
 		// If isInCountry ever returns true, isLand should return true.
 		for (Marker m : countryMarkers) {
 			// TODO: Finish this method using the helper method isInCountry
-			isInCountry(earthquake, m);
-			return true;
+			if(isInCountry(earthquake, m)) {
+				return true;
+			};
+
 		}
 		
 		
@@ -213,16 +222,45 @@ public class EarthquakeCityMap extends PApplet {
 		//      property set.  You can get the country with:
 		//        String country = (String)m.getProperty("country");
 
-		for (Marker cm : countryMarkers) {
-			int counter = 0;
 
-			//if ()
+		//Count country quakes
+		int counter;
+		for (Marker cm : countryMarkers) {
+			counter = 0;
+			String countryName = (String) cm.getProperty("name");
+
+			for (Marker m : quakeMarkers) {
+				if (m instanceof EarthquakeMarker) {
+					EarthquakeMarker em = (EarthquakeMarker) m;
+					if (em.isOnLand) {
+						String lm = ((LandQuakeMarker) m).getCountry();
+						if (countryName == lm) {
+							counter++;
+						}
+					}
+				}
+			}
+			if (counter > 0) {
+				System.out.println(countryName + ": " + counter);
+			}
+		}
+
+		//Count ocean quakes
+		counter = 0;
+		for (Marker m : quakeMarkers) {
+			if (m instanceof OceanQuakeMarker) {
+				OceanQuakeMarker om = (OceanQuakeMarker) m;
+				if (!om.isOnLand) {
+					counter++;
+				}
+			}
+		}
+		if (counter > 0) {
+			System.out.println("OCEAN QUAKES" + ": " + counter);
 		}
 
 	}
-	
-	
-	
+
 	// helper method to test whether a given earthquake is in a given country
 	// This will also add the country property to the properties of the earthquake 
 	// feature if it's in one of the countries.
