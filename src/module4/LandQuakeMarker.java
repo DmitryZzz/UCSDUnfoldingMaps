@@ -34,11 +34,13 @@ public class LandQuakeMarker extends EarthquakeMarker {
 		
 		// TODO: Implement this method
 		//+zimin8
-		float r = getRadius();
-		pg.ellipse(x,y,r,r);
-		
+		pg.ellipse(x,y,2*radius,2*radius);
+
+//		if(getStringProperty("age").equals("Past Day") || getStringProperty("age").equals("Past Hour")) {
+//			pg.line(x-(r/2), y-(r/2), x+(r/2), y+(r/2));
+//		};
+
 	}
-	
 
 	// Get the country the earthquake is in
 	public String getCountry() {

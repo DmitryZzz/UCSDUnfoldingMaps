@@ -143,23 +143,43 @@ public class EarthquakeCityMap extends PApplet {
 		text("Earthquake Key", 50, 75);
 
 		fill(color(200, 100, 100));
-		triangle(40, 135, 50, 120, 60, 135);
+		triangle(40, 115, 50, 100, 60, 115);
+
+		fill(color(255, 255, 255));
+		ellipse(50,135,15, 15);
+        rect(43,155,15, 15);
+
+        fill(color(255, 255, 0));
+        ellipse(50,210,15, 15);
+
+        fill(color(0, 0, 255));
+        ellipse(50,230,15, 15);
+
+        fill(color(255, 0, 0));
+        ellipse(50,250,15, 15);
+
+		fill(color(255, 255, 255));
+		ellipse(50,270,15, 15);
+
+		fill(color(0, 0, 0));
+		strokeWeight(2);
+		int adjust = (15/2)+2;
+		line(50-adjust, 270+adjust, 50+adjust, 270-adjust);
+		line(50-adjust, 270-adjust, 50+adjust, 270+adjust);
 
 		fill(0, 0, 0);
-		text("City marker", 75, 125);
+		text("City Marker", 75, 105);
+        text("Land Quake", 75, 133);
+        text("Ocean Quake", 75, 160);
+        textAlign(CENTER);
+        text("Size ~ Magnitude", 100, 190);
 
+        textAlign(LEFT);
+        text("Shallow", 75, 215);
+        text("Intermediate", 75, 235);
+        text("Deep", 75, 255);
+		text("Last Day", 75, 275);
 
-//		fill(color(255, 0, 0));
-//		ellipse(50, 125, 15, 15);
-//		fill(color(255, 255, 0));
-//		ellipse(50, 175, 10, 10);
-//		fill(color(0, 0, 255));
-//		ellipse(50, 225, 5, 5);
-//
-//		fill(0, 0, 0);
-//		text("5.0+ Magnitude", 75, 125);
-//		text("4.0+ Magnitude", 75, 175);
-//		text("Below 4.0", 75, 225);
 	}
 
 	
@@ -180,7 +200,7 @@ public class EarthquakeCityMap extends PApplet {
 			// TODO: Finish this method using the helper method isInCountry
 			if(isInCountry(earthquake, m)) {
 				return true;
-			};
+			}
 
 		}
 		
@@ -234,7 +254,7 @@ public class EarthquakeCityMap extends PApplet {
 					EarthquakeMarker em = (EarthquakeMarker) m;
 					if (em.isOnLand) {
 						String lm = ((LandQuakeMarker) m).getCountry();
-						if (countryName == lm) {
+						if (countryName.equals(lm)) {
 							counter++;
 						}
 					}

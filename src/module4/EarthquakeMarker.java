@@ -66,8 +66,23 @@ public abstract class EarthquakeMarker extends SimplePointMarker
 		// call abstract method implemented in child class to draw marker shape
 		drawEarthquake(pg, x, y);
 		
-		// OPTIONAL TODO: draw X over marker if within past day		
-		
+		// OPTIONAL TODO: draw X over marker if within past day
+		String age = getStringProperty("age");
+		if(age.equals("Past Day") || age.equals("Past Hour")) {
+			pg.strokeWeight(2);
+			float delta = radius + 2;
+
+			pg.line(x-delta,
+					y-delta,
+					x+delta,
+					y+delta);
+
+			pg.line(x-delta,
+					y+delta,
+					x+delta,
+					y-delta);
+		}
+
 		// reset to previous styling
 		pg.popStyle();
 		
