@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24e87e41-a9cd-4b96-ad29-aeb10c789b42" name="Default Changelist" comment="">
+    <list default="true" id="24e87e41-a9cd-4b96-ad29-aeb10c789b42" name="Default Changelist" comment="2020-01-21">
+      <change afterPath="$PROJECT_DIR$/src/module5/TestModule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module4/EarthquakeCityMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module4/EarthquakeCityMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module4/EarthquakeMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module4/EarthquakeMarker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module4/LandQuakeMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module4/LandQuakeMarker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module4/OceanQuakeMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module4/OceanQuakeMarker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module5/CityMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module5/CityMarker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module5/EarthquakeCityMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module5/EarthquakeCityMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module5/EarthquakeMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module5/EarthquakeMarker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.EarthquakeCityMap (1)">
+  <component name="RunManager" selected="Application.EarthquakeCityMap (2)">
     <configuration default="true" type="Applet">
       <option name="MAIN_CLASS_NAME" value="module1.HelloWorld" />
       <method v="2">
@@ -57,6 +57,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="module4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EarthquakeCityMap (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module5.EarthquakeCityMap" />
+      <module name="UCSDUnfoldingMaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="module5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,25 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guimodule.MyDisplay" />
+    <configuration name="TestModule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module5.TestModule" />
       <module name="UCSDUnfoldingMaps" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guimodule.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyPApplet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demos.MyPApplet" />
-      <module name="UCSDUnfoldingMaps" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demos.*" />
+          <option name="PATTERN" value="module5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,21 +131,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EarthquakeCityMap (1)" />
+      <item itemvalue="Application.EarthquakeCityMap (2)" />
       <item itemvalue="Application.EarthquakeCityMapDemo" />
       <item itemvalue="Application.EarthquakeCityMap" />
-      <item itemvalue="Application.EarthquakeCityMap (1)" />
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.LifeExpectancy" />
-      <item itemvalue="Application.MyDisplay" />
-      <item itemvalue="Application.MyPApplet" />
+      <item itemvalue="Application.TestModule" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EarthquakeCityMap (2)" />
+        <item itemvalue="Application.TestModule" />
         <item itemvalue="Application.EarthquakeCityMap (1)" />
         <item itemvalue="Application.LifeExpectancy" />
         <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.MyDisplay" />
-        <item itemvalue="Application.MyPApplet" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579468847142</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2020-01-21">
+      <created>1579554536020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579554536020</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +220,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="module_4" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_4" />
+    <MESSAGE value="2020-01-21" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-01-21" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577803034035">
@@ -226,81 +234,87 @@
     </state>
     <state x="689" y="337" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577803031885" />
     <state x="689" y="375" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1577787779298" />
-    <state x="627" y="124" key="CommitChangelistDialog2" timestamp="1579554449967">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1580552844090">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="627" y="124" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1579554449967" />
-    <state width="456" height="466" key="DebuggerActiveHint" timestamp="1579550163969">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1580552844090" />
+    <state x="627" y="124" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1579554534607" />
+    <state width="456" height="328" key="DebuggerActiveHint" timestamp="1580643263470">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="456" height="328" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1578745531962" />
+    <state width="456" height="328" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1580643263470" />
     <state width="456" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1579550163969" />
     <state width="456" height="520" key="DebuggerActiveHint/0.0.1920.1170@0.0.1920.1170" timestamp="1577960911869" />
-    <state width="1877" height="320" key="GridCell.Tab.0.bottom" timestamp="1579554374119">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1580663556666">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1578855048611" />
-    <state width="1877" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1579554374119" />
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580663556666" />
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1579554549027" />
     <state width="938" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1577967567699" />
-    <state width="1877" height="320" key="GridCell.Tab.0.center" timestamp="1579554374119">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1580663556666">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1578855048611" />
-    <state width="1877" height="320" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1579554374119" />
+    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580663556666" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1579554549027" />
     <state width="938" height="325" key="GridCell.Tab.0.center/0.0.1920.1170@0.0.1920.1170" timestamp="1577967567699" />
-    <state width="1877" height="320" key="GridCell.Tab.0.left" timestamp="1579554374119">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1580663556666">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1578855048611" />
-    <state width="1877" height="320" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1579554374119" />
+    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580663556666" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1579554549027" />
     <state width="938" height="325" key="GridCell.Tab.0.left/0.0.1920.1170@0.0.1920.1170" timestamp="1577967567699" />
-    <state width="1877" height="320" key="GridCell.Tab.0.right" timestamp="1579554374119">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1580663556666">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1578855048611" />
-    <state width="1877" height="320" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1579554374119" />
+    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580663556666" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1579554549027" />
     <state width="938" height="325" key="GridCell.Tab.0.right/0.0.1920.1170@0.0.1920.1170" timestamp="1577967567699" />
-    <state width="1877" height="320" key="GridCell.Tab.1.bottom" timestamp="1579554374119">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1580663556666">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1578855048611" />
+    <state width="1323" height="212" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580663556666" />
     <state width="1877" height="320" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1579554374119" />
     <state width="1877" height="400" key="GridCell.Tab.1.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1577963483263" />
-    <state width="1877" height="320" key="GridCell.Tab.1.center" timestamp="1579554374119">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="212" key="GridCell.Tab.1.center" timestamp="1580663556666">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1578855048611" />
+    <state width="1323" height="212" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1580663556666" />
     <state width="1877" height="320" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1579554374119" />
     <state width="1877" height="400" key="GridCell.Tab.1.center/0.0.1920.1170@0.0.1920.1170" timestamp="1577963483263" />
-    <state width="1877" height="320" key="GridCell.Tab.1.left" timestamp="1579554374119">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="212" key="GridCell.Tab.1.left" timestamp="1580663556666">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1578855048611" />
+    <state width="1323" height="212" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1580663556666" />
     <state width="1877" height="320" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1579554374119" />
     <state width="1877" height="400" key="GridCell.Tab.1.left/0.0.1920.1170@0.0.1920.1170" timestamp="1577963483263" />
-    <state width="1877" height="320" key="GridCell.Tab.1.right" timestamp="1579554374119">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="212" key="GridCell.Tab.1.right" timestamp="1580663556666">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1578855048611" />
+    <state width="1323" height="212" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1580663556666" />
     <state width="1877" height="320" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1579554374119" />
     <state width="1877" height="400" key="GridCell.Tab.1.right/0.0.1920.1170@0.0.1920.1170" timestamp="1577963483263" />
-    <state x="552" y="262" key="Vcs.Push.Dialog.v2" timestamp="1579468849851">
+    <state x="552" y="262" key="Vcs.Push.Dialog.v2" timestamp="1579554538908">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="262" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1579468849851" />
+    <state x="552" y="262" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1579554538908" />
     <state x="771" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577802962449">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="771" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1577802962449" />
     <state x="771" y="504" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1170@0.0.1920.1170" timestamp="1577780038631" />
-    <state x="667" y="281" width="586" height="488" key="find.popup" timestamp="1579549399951">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="475" y="198" width="586" height="488" key="find.popup" timestamp="1580593466213">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="475" y="198" width="586" height="488" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1580593466213" />
     <state x="667" y="281" width="586" height="488" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1579549399951" />
     <state x="364" y="247" key="new project wizard" timestamp="1579342452315">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="364" y="247" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1579342452315" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1580638960066">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1580638960066" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1579438161422">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -327,9 +341,11 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="Thread.currentThread().getContextClassLoader()" language="JAVA" />
-        <watch expression="properties" language="JAVA" />
-        <watch expression="getProperty(&quot;age&quot;)" language="JAVA" />
+        <watch expression="m.getDistanceTo(lastClicked.getLocation())" language="JAVA" />
+        <watch expression="m.getDistanceTo(lastClicked.getLocation()) &gt;= ((EarthquakeMarker) m).threatCircle()" language="JAVA" />
+        <watch expression="m.getMagnitude()" language="JAVA" />
+        <watch expression="((EarthquakeMarker) m).threatCircle()" language="JAVA" />
+        <watch expression="quakeMarkers.get(3).getMagnitude()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
