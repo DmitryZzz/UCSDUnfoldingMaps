@@ -92,6 +92,9 @@ public class AirportMap extends PApplet {
 		map.draw();
 		
 	}
-	
 
+	public static void main(String[] args) {
+		AirportMap my = new module6.AirportMap();
+		PApplet.runSketch(new String[]{"AirportMap"}, my);
+	}
 }
